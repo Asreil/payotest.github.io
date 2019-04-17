@@ -1,0 +1,210 @@
+body {
+  margin: 0 auto;
+  padding: 0 100px;
+  background-color: #1e1d1d;
+  font-family: Roboto, sans-serif;
+}
+body div,
+body textarea {
+  box-sizing: border-box;
+}
+body .CodeMirror {
+  line-height: 28px;
+}
+body .CodeMirror .CodeMirror-gutters {
+  padding-right: 20px;
+  background-color: #111010;
+}
+body .CodeMirror .CodeMirror-linenumber {
+  font-size: 16px;
+  color: white;
+}
+body .CodeMirror .CodeMirror-line {
+  padding-left: 17px;
+}
+body .CodeMirror pre.CodeMirror-placeholder {
+  padding-left: 17px;
+  color: rgba(0, 0, 0, 0.5);
+}
+body .text-muted {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+}
+body .page-content {
+  padding: 179px 0;
+}
+body .offer-details .offer-details__header {
+  margin-bottom: 30px;
+  color: white;
+}
+body .offer-details .offer-details__header .step {
+  margin-right: 13px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid white;
+  font-size: 20px;
+  font-weight: 300;
+}
+body .offer-details .offer-details__header .caption {
+  margin-right: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.081713px;
+  font-size: 20px;
+  font-weight: 700;
+}
+body .offer-details .offer-details__body .caption {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: white;
+}
+body .offer-details .offer-details__body .add-new-codes {
+  display: flex;
+  flex-direction: column;
+  width: 540px;
+  border-radius: 3px;
+}
+body .offer-details .offer-details__body .add-new-codes.aside {
+  padding-left: 34px;
+  height: 347px;
+  background-color: #111010;
+}
+body .offer-details .offer-details__body .add-new-codes .options {
+  padding-left: 48px;
+  display: flex;
+  height: 55px;
+  border-radius: 5px 5px 0 0;
+  background-color: #111010;
+}
+body .offer-details .offer-details__body .add-new-codes .options.aside {
+  padding-left: 48px;
+}
+body .offer-details .offer-details__body .add-new-codes .options .option {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.5);
+}
+body .offer-details .offer-details__body .add-new-codes .options .option.active {
+  border-top: 7px solid #71BE1E;
+  border-radius: 5px 5px 0 0;
+  background: rgba(126, 211, 33, 0.2);
+  color: #7ED321;
+}
+body .offer-details .offer-details__body .add-new-codes .manually-content {
+  width: 100%;
+  height: 292px;
+}
+body .offer-details .offer-details__body .add-new-codes .manually-content .input-area {
+  width: 100%;
+  height: 100%;
+  line-height: 20px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  resize: none;
+}
+body .offer-details .offer-details__body .add-new-codes .manually-content .input-area::-webkit-input-placeholder,
+body .offer-details .offer-details__body .add-new-codes .manually-content .input-area:-moz-placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+body .offer-details .offer-details__body .add-new-codes .as-files-content {
+  display: none;
+  padding-top: 20px;
+}
+body .offer-details .offer-details__body .add-new-codes .as-files-content .title {
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: white;
+}
+body .offer-details .offer-details__body .add-new-codes .as-files-content .file-type {
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+body .offer-details .offer-details__body .add-new-codes .as-files-content .upload-field {
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  height: 55px;
+  background-color: white;
+}
+body .offer-details .offer-details__body .add-new-codes .as-files-content .upload-field .select-files {
+  color: rgba(0, 0, 0, 0.5);
+}
+body .offer-details .offer-details__body .add-new-codes .as-files-content .upload-field .upload {
+  padding: 0 30px;
+  margin-left: auto;
+  display: inline-flex;
+  height: 100%;
+  align-items: center;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #7ED321;
+}
+body .offer-details .offer-details__body .add-new-codes .as-files-content .upload-field .upload span {
+  text-transform: uppercase;
+  font-weight: 900;
+  color: white;
+}
+body .offer-details .offer-details__body .add-new-codes .as-files-content .upload-field .upload input[type="file"] {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+body .offer-details .offer-details__body .add-new-codes .as-files-content .upload-files {
+  font-size: 14px;
+}
+body .offer-details .offer-details__body .add-new-codes .as-files-content .upload-files button {
+  cursor: pointer;
+}
+body .offer-details .offer-details__body .add-new-codes .as-files-content .upload-files .row {
+  display: flex;
+  justify-content: space-between;
+}
+body .offer-details .offer-details__body .add-new-codes .as-files-content .upload-files .error {
+  color: #D80027;
+}
+body .offer-details .offer-details__body .add-new-codes .as-files-content .upload-files .clear-invalid {
+  padding: 9px 14px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  text-align: center;
+  border: 1px solid #D80027;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #D80027;
+}
+body .offer-details .offer-details__body .add-new-codes .as-files-content .upload-files .items .item + .item {
+  margin-top: 15px;
+}
+body .offer-details .offer-details__body .add-new-codes .as-files-content .upload-files .items .item .description,
+body .offer-details .offer-details__body .add-new-codes .as-files-content .upload-files .items .item .actions {
+  display: flex;
+  align-items: center;
+}
+body .offer-details .offer-details__body .add-new-codes .as-files-content .upload-files .items .item .type {
+  margin-right: 20px;
+}
+body .offer-details .offer-details__body .add-new-codes .as-files-content .upload-files .items .item .actions .invalid {
+  font-size: 12px;
+}
+body .offer-details .offer-details__body .add-new-codes .as-files-content .upload-files .items .item .actions .view {
+  padding: 9px;
+  margin-right: 20px;
+  width: 105px;
+  border: 1px solid white;
+  border-radius: 4px;
+  background-color: transparent;
+  color: white;
+}

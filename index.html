@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="codemirror/codemirror.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="codemirror/codemirror.js"></script>
+    <script src="codemirror/placeholder.js"></script>
+</head>
+<body>
+    <div class="page-content">
+        <section class="offer-details">
+            <header class="offer-details__header">
+                <span class="step">2</span>
+
+                <span class="caption">
+                    offer details
+                </span>
+
+                <img src="images/info.svg" alt="info">
+            </header>
+
+            <div class="offer-details__body">
+                <p class="caption">add new codes</p>
+
+                <div class="add-new-codes">
+                    <div class="options">
+                        <div class="option manually active">Manually</div>
+                        <div class="option as-files">TXT, CSV, PNG, RAR</div>
+                        <div class="option">UPLOAD AS PICTURES</div>
+                    </div>
+
+                    <div class="manually-content">
+                        <textarea class="input-area" placeholder="Enter CD Key"></textarea>
+                    </div>
+
+                    <div class="as-files-content">
+                        <p class="title">Import files</p>
+
+                        <p class="file-type text-muted">(.txt, .csv)</p>
+
+                        <div class="upload-field">
+                            <span class="select-files">Select files to upload</span>
+
+                            <label class="upload">
+                                <span>browse</span>
+                                <input type="file">
+                            </label>
+                        </div>
+
+                        <p class="text-muted">Maximum upload file size: 100kb</p>
+
+                        <div class="upload-files">
+                            <div class="row">
+                                <button class="clear-invalid">
+                                    Clear invalid
+                                </button>
+                            </div>
+
+                            <div class="items">
+                                <div class="item row">
+                                    <div class="description">
+                                        <img class="type" src="images/documents/undefined_type.svg" alt="undefined-type">
+
+                                        <span class="name text-muted">My keys for AION ONLINE (EU/NA).psd</span>
+                                    </div>
+
+                                    <div class="actions">
+                                        <span class="error invalid">Invalid file</span>
+                                    </div>
+                                </div>
+
+                                <div class="item row">
+                                    <div class="description">
+                                        <img class="type" src="images/documents/undefined_type.svg" alt="undefined-type">
+
+                                        <span class="name text-muted">My keys for AION ONLINE (EU/NA).psd</span>
+                                    </div>
+
+                                    <div class="actions">
+                                        <span class="error invalid">Invalid file</span>
+                                    </div>
+                                </div>
+
+                                <div class="item row">
+                                    <div class="description">
+                                        <img class="type" src="images/documents/undefined_type.svg" alt="undefined-type">
+
+                                        <span class="name text-muted">My keys for AION ONLINE (EU/NA).psd</span>
+                                    </div>
+
+                                    <div class="actions">
+                                        <span class="error invalid">Invalid file</span>
+                                    </div>
+                                </div>
+
+                                <div class="item row">
+                                    <div class="description">
+                                        <img class="type" src="images/documents/text.svg" alt="text-type">
+
+                                        <span class="name text-muted">My keys for AION ONLINE (EU/NA).txt</span>
+                                    </div>
+
+                                    <div class="actions">
+                                        <button class="view">View key</button>
+
+                                        <img src="images/delete.svg" alt="delete-file" class="delete">
+                                    </div>
+                                </div>
+
+                                <div class="item row">
+                                    <div class="description">
+                                        <img class="type" src="images/documents/text.svg" alt="text-type">
+
+                                        <span class="name text-muted">My keys for AION ONLINE (EU/NA).txt</span>
+                                    </div>
+
+                                    <div class="actions">
+                                        <button class="view">View key</button>
+
+                                        <img src="images/delete.svg" alt="delete-file" class="delete">
+                                    </div>
+                                </div>
+
+                                <div class="item row">
+                                    <div class="description">
+                                        <img class="type" src="images/documents/csv.svg" alt="text-type">
+
+                                        <span class="name text-muted">My keys for AION ONLINE (EU/NA).csv</span>
+                                    </div>
+
+                                    <div class="actions">
+                                        <button class="view">View key</button>
+
+                                        <img src="images/delete.svg" alt="delete-file" class="delete">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
